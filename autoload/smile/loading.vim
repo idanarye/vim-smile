@@ -29,7 +29,8 @@ function! smile#loading#load(path) abort
 endfunction
 
 function! s:findPaths(name) abort
-    return globpath(&runtimepath, 'autoload/smile/resource/'.a:name.'.sml', 0, 1)
+    let l:globResult = globpath(&runtimepath, 'autoload/smile/resource/'.a:name.'.sml')
+    return split(l:globResult, '\v\r\n|\n|\r')
 endfunction
 
 function! smile#loading#loadFromRuntime(name) abort
