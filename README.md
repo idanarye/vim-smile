@@ -7,7 +7,8 @@ productivity.
 
 However, not everyone can enjoy this new functionality. Some developers are
 stuck with old Linux distributions that have old Vim builds, and can't upgrade
-to Vim 8. Others use Neovim, which heartlessly refuses to port the `:smile`
+to Vim 8. Others use Neovim, which [heartlessly
+refuses](https://github.com/neovim/neovim/issues/5116) to port the `:smile`
 command.
 
 This plugin implements the `:smile` command in Vimscript, so that everyone can
