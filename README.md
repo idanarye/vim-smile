@@ -32,7 +32,7 @@ CREATE YOUR OWN SMILES
 
 To create your own smile, create in one of the directories listed in
 `runtimepath` a directory named "autoload/smile/resource/"(if it does not
-already exist), and put in their a file with the `.sml` extension.  The file
+already exist), and put in there a file with the `.sml` extension.  The file
 format is as follows:
 
  - First line - the name of the default highlight group. This will be the
